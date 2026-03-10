@@ -132,6 +132,12 @@
 
   .card {
     width: 170px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
   }
   
   .box {

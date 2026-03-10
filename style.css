@@ -198,3 +198,34 @@
     border-radius: 0.5rem;
     font-weight: bold;
   }
+
+  .footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 768px) {
+    .navbar,
+    .hero,
+    .cta-box {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  
+    .hero-text p {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .quote-author {
+      text-align: center;
+    }
+  }

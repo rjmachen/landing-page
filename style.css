@@ -35,3 +35,33 @@
     margin: 0 auto;
     padding: 0 2rem;
   }
+
+  .hero-wrapper {
+    background-color: #1f2937;
+    color: white;
+    padding-top: 1.25rem;
+    padding-bottom: 6rem;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: #e5e7eb;
+    font-size: 0.95rem;
+  }

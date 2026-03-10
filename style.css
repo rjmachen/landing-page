@@ -132,6 +132,8 @@
 
   .card {
     width: 170px;
+    text-align: center;
+    
     transition: transform 0.2s ease;
   }
 
